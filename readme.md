@@ -10,4 +10,18 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+### Step 1:
+
+#### Using the browser:
+
+Create your own codespace by clicking on the link in the chat, then clicking "Create codespace." Wait for codespace to load. 
+
+#### Using VS Code:
+
+Instructions for creating a codespace in VS Code can be found [here](https://docs.github.com/en/codespaces/developing-in-codespaces/using-github-codespaces-in-visual-studio-code)
+
+### Step 2:
+
+Run ```docker-compose up``` in the terminal.This step will take a little bit longer than the first. 
+
+And you're done! You can confirm that you've set this up correctly by following the links provided you by Ness. Great work!
