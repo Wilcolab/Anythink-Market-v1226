@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { Link } from "react-router-dom";
 import agent from "../agent";
 import { connect } from "react-redux";
@@ -19,6 +19,7 @@ const mapDispatchToProps = (dispatch) => ({
 
 const ItemPreview = (props) => {
   const item = props.item;
+  const p = item.image ? item.image : './placeholder.png'
 
   const handleClick = (ev) => {
     ev.preventDefault();
@@ -37,7 +38,7 @@ const ItemPreview = (props) => {
     >
       <img
         alt="item"
-        src={item.image}
+        src={p}
         className="card-img-top item-img"
         style={{ borderRadius: "20px" }}
       />
